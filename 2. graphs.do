@@ -1,5 +1,7 @@
 * ************************************************************
-* 2.1. graphs
+* 2. graphs
+
+* This do file is to generate graphs for data analysis and visualization.
 
 * Author: Sungmee Kim
 * Created: June 7, 2024
@@ -12,6 +14,13 @@
 * 2. number of fatalities / 1000 data comes from Child Maltreatment Report (state-level)
 	// didn't use numbers from county-level Child File since it doesn't have a "full" record. Refer to the Report.
 
+* 0. child fatality trend (0-3 vs. 4-17) using Child File 
+* 0. controls pre-trend  
+* 0. remote learning histogram (sample only)  
+* 1.1. Maptile - prop_remote2021    
+* 1.2. Maptile - prop_remote2021 (dummy)  
+* 2. Forecast FFY 2020~2022 # of allegations (using FFY 2016~2019)
+* 3. Allegation & Fatality Trend (full sample & by learning mode)
 * ************************************************************
 * Set Working Folder           
 * ************************************************************
@@ -521,7 +530,7 @@ restore
 */
 
 * ************************************************************
-* 3. Allegation & Fatality Trend (full & by learning mode)
+* 3. Allegation & Fatality Trend (full sample & by learning mode)
 * ************************************************************
 
 * 1. Full Sample
