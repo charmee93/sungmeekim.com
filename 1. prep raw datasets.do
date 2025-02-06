@@ -17,7 +17,7 @@
 	* 2. public only
 	* 3. charter only (probably won't need this)
 
-* ************************************************************
+*--------------------------------*
 
 * (search each title to move to the code)
 
