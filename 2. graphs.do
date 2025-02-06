@@ -14,6 +14,10 @@
 * 2. number of fatalities / 1000 data comes from Child Maltreatment Report (state-level)
 	// didn't use numbers from county-level Child File since it doesn't have a "full" record. Refer to the Report.
 
+*--------------------------------*
+
+* (search each title to move to the code)
+
 * 0. child fatality trend (0-3 vs. 4-17) using Child File 
 * 0. controls pre-trend  
 * 0. remote learning histogram (sample only)  
@@ -21,6 +25,7 @@
 * 1.2. Maptile - prop_remote2021 (dummy)  
 * 2. Forecast FFY 2020~2022 # of allegations (using FFY 2016~2019)
 * 3. Allegation & Fatality Trend (full sample & by learning mode)
+
 * ************************************************************
 * Set Working Folder           
 * ************************************************************
