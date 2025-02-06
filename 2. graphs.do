@@ -7,14 +7,6 @@
 * Created: June 7, 2024
 * Last Updated: November 6, 2024
 * ************************************************************
-* Notes
-
-* 1. number of allegations / 1000 data comes from collapsing Child File (county-level)
-	// discrepancies between Child File and state-level Child Maltreatment Report; check back
-* 2. number of fatalities / 1000 data comes from Child Maltreatment Report (state-level)
-	// didn't use numbers from county-level Child File since it doesn't have a "full" record. Refer to the Report.
-
-*--------------------------------*
 
 * (search each title to move to the code)
 
@@ -25,6 +17,15 @@
 * 1.2. Maptile - prop_remote2021 (dummy)  
 * 2. Forecast FFY 2020~2022 # of allegations (using FFY 2016~2019)
 * 3. Allegation & Fatality Trend (full sample & by learning mode)
+
+*--------------------------------*
+
+* Notes
+
+* 1. number of allegations / 1000 data comes from collapsing Child File (county-level)
+	// discrepancies between Child File and state-level Child Maltreatment Report; check back
+* 2. number of fatalities / 1000 data comes from Child Maltreatment Report (state-level)
+	// didn't use numbers from county-level Child File since it doesn't have a "full" record. Refer to the Report.
 
 * ************************************************************
 * Set Working Folder           
