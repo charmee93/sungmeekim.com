@@ -1,6 +1,8 @@
 * ************************************************************
 * 0. Prep raw datasets
 
+* This do file is to prepare raw data from various sources and merge them.
+
 * Author: Sungmee Kim
 * Created: May 14, 2024
 * Last Updated: September 10, 2024
@@ -14,6 +16,19 @@
 	* 1. public + charter (full sample)
 	* 2. public only
 	* 3. charter only (probably won't need this)
+
+* ************************************************************
+
+* (search each title to move to the code)
+
+* Clean + Merge Data
+	* 0. COVID cases+deaths
+	* 1. countyfips state county zip
+	* 2. learning modality, 2020-21 & 2021-22
+	* 3. child maltreatment - number of allegations, fatalities by state
+	* 4.1. Census 0to19 population + linear time trend
+	* 4.2. Census 0to19 population (by race)
+	* 5. BLS unemp
 
 * ************************************************************
 * Set Working Folder           
@@ -31,15 +46,6 @@ global output "${dir}Output/"
 
 //log using "${output}log/0. prep raw datasets.log", replace
 
-* ************************************************************
-* Clean + Merge Data
-	* 0. COVID cases+deaths
-	* 1. countyfips state county zip
-	* 2. learning modality, 2020-21 & 2021-22
-	* 3. child maltreatment - number of allegations, fatalities by state
-	* 4.1. Census 0to19 population + linear time trend
-	* 4.2. Census 0to19 population (by race)
-	* 5. BLS unemp
 * ************************************************************
 
 * 0. COVID cases+deaths
