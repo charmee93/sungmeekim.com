@@ -15,15 +15,6 @@
 	* 2. public only
 	* 3. charter only (probably won't need this)
 
-*----------------------------------*
-
-* Comments
-
-* remote learning by county - variation?
-// CHECKED 20240607
-* is the variation plausibly "exogenous"?
-// could test a few things
-
 * ************************************************************
 * Set Working Folder           
 * ************************************************************
