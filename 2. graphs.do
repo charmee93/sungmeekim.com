@@ -485,13 +485,6 @@ use "${datap}master_county_month.dta", clear
 gen tt2 = tt*tt
 gen tt3 = tt*tt*tt
 
-/*
-In most situations I would code these as 1996 = 1, 1998 = 3, 1999 = 4. That's because in most situation what you want the time trend variable to represent is the elapsed time.
-
-An exception to this general principle might arise depending on why there is no 1997 data. If the effects you are analyzing were actually suspended or otherwise inoperative during 1997, then it would be more correct to code 1998 as year 2 and 1999 as year 3, because nothing actually happened in 1997.
-*/
-
-
 //reg reported_total_raw i.countyfips i.year i.month tt tt2 tt3 if ( inrange(year, 2016, 2018) | (year==2019 & inrange(month, 1, 5)) ) & stateabbr!="XX"
 reg reported_total i.countyfips i.year i.month tt tt2 if (inrange(year, 2016, 2019)| (year==2020 & inrange(month,1,2) ) )& stateabbr!="XX"
 																
