@@ -1,10 +1,14 @@
 * ************************************************************
-* 3. 4to17 (vs. 0to3)_v2
+* 3. 4to17 (vs. 0to3) regression
+
+* This do file is to ...
 
 * Author: Sungmee Kim
 * Created: November 13, 2024
 * ************************************************************
 * NOTE
+
+*--------------------------------*
 
 * (search each title to move to the code)
 
