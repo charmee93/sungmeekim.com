@@ -1,19 +1,11 @@
 * ************************************************************
 * 3. 4to17 (vs. 0to3) regression
 
-* This do file is to ...
-
-* Author: Sungmee Kim
-* Created: November 13, 2024
-* ************************************************************
-* NOTE
-
-*--------------------------------*
-
+* This do file is to run the following regressions:
 * (search each title to move to the code)
 
 * [DID Robustness Test]
-* 1. Parallel Trend - Pre / Post dummy // later, do honestdid
+* 1. Parallel Trend - Pre / Post dummy
 * 2. No Anticipation - 2019/3 as treatment month (placebo test)
 
 * [DID]
@@ -26,6 +18,11 @@
 * [EVENT STUDY]
 * 1. COUNTY-MONTH
 * 2. STATE-YEAR
+
+* ************************************************************
+* Author: Sungmee Kim
+* Created: November 13, 2024
+* ************************************************************
 
 * ************************************************************
 * Set Working Folder           
